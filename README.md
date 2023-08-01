@@ -60,6 +60,9 @@ The superbowl.csv file was uploaded into R and was called NFL. The NFL dataset h
 
 There were several subsets of the NFL_list dataset that were created by the state location where Super Bowls were held. The subsets created were called Florida, Texas, California, Georgia, Arizona, Louisiana, Michigan, Minnesota, Indiana, and New Jersey.
 
+# NFL_List Data
+
+An exploratory data analysis was conducted on all 57 Super Bowls before subsets occurred. Overall, 
 
 
 
