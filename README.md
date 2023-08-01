@@ -12,6 +12,6 @@ There were two data sets used to complete the analysis. The first dataset was cr
 
 # Super Bowl Data
 
-The 'Super Bowl History 1967-2020' dataset contained 54 rows and 10 columns. 
+The 'Super Bowl History 1967-2020' dataset contained 54 observations and 10 variables. 8 of the 10 variables were considered 'character' and 2 of the variables were considered 'integer'. 
 
 
