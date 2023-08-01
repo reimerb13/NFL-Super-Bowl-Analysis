@@ -62,7 +62,21 @@ There were several subsets of the NFL_list dataset that were created by the stat
 
 # NFL_List Data
 
-An exploratory data analysis was conducted on all 57 Super Bowls before subsets occurred. Overall, 
+An exploratory data analysis was conducted on all 57 Super Bowls before subsets occurred. Super Bowl winning teams scored roughly 30 points per victory (30.14 to be exact), with a maximum of 55 points and a minimum of 13 points. Super
+Bowl losing teams scored roughly 16 points per defeat (16.47 to be exact), with a maximum of 35 points and minimum of 3 points.
+
+Two teams (New England Patriots and Pittsburgh Steeleres) are tied for the most Super Bowl victories with 6. Two teams (Denver Broncos and New England Patriots) are tied for the most Super Bowl lossess with 5.
+
+# Florida Super Bowls
+
+There have been a total of 17 Super Bowls held in the state of Florida. Super Bowl winning teams have scored an average under 29 points (28.76 exactly), with a maximum of 49 points and a minimum of 16 points. Super Bowl losing teams have scored an average under 17 points (16.76 exactly), with a maximum of 31 points and a minimum of 7 points.
+
+The Pittsburgh Steelers have the most Super Bowl victories in Florida with 3 and the Dallas Cowboys have the most Super Bowl losses with 3.
+
+<img width="713" alt="image" src="https://github.com/reimerb13/NFL-Super-Bowl-Analysis/assets/79723505/c167e94c-99bb-4af3-972b-55dd7742e682">
+
+
+<img width="661" alt="image" src="https://github.com/reimerb13/NFL-Super-Bowl-Analysis/assets/79723505/c636f056-6b0b-4205-9019-393f72280e14">
 
 
 
