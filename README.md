@@ -34,6 +34,28 @@ City: City where the Super Bowl was held
 
 State: State where the Super Bowl was held
 
+# Libraries Used in R
+
+The following libraries were used in R to complete the Super Bowl analysis:
+
+- dplyr
+
+- readr
+
+- adabag
+
+- tseries
+
+- ggplot2
+
+- stats
+
+- forecast
+
+- magrittr
+
+
+
 
 
 
