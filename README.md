@@ -10,4 +10,8 @@ for plays run by Super Bowl teams, as well as any penalities that occurred.
 
 There were two data sets used to complete the analysis. The first dataset was created by Timo Bozsolik titled 'Super Bowl History 1967-2020'. This dataset included data from Super Bowls that were held between 1967 and 2020. The second dataset was one that I created that included Super Bowl data from 2021-2023.
 
+# Super Bowl Data
+
+The 'Super Bowl History 1967-2020' dataset contained 54 rows and 10 columns. 
+
 
