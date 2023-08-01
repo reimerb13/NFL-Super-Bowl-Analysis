@@ -69,7 +69,7 @@ Two teams (New England Patriots and Pittsburgh Steeleres) are tied for the most 
 
 # Florida Super Bowls
 
-There have been a total of 17 Super Bowls held in the state of Florida. The summary statistics show that Super Bowl winning teams have scored an average under 29 points (28.76 exactly), with a maximum of 49 points and a minimum of 16 points. Super Bowl losing teams have scored an average under 17 points (16.76 exactly), with a maximum of 31 points and a minimum of 7 points. After looking at summary statistics, the numbers of 
+There have been a total of 17 Super Bowls held in the state of Florida. The summary statistics show that Super Bowl winning teams have scored an average under 29 points (28.76 exactly), with a maximum of 49 points and a minimum of 16 points. Super Bowl losing teams have scored an average under 17 points (16.76 exactly), with a maximum of 31 points and a minimum of 7 points. After looking at summary statistics, graphical displays of the number of Super Bowl winning and losing teams were created.
 
 
 <img width="713" alt="image" src="https://github.com/reimerb13/NFL-Super-Bowl-Analysis/assets/79723505/c167e94c-99bb-4af3-972b-55dd7742e682">
@@ -80,6 +80,24 @@ The Pittsburgh Steelers have the most Super Bowl victories in Florida with 3 (17
 
 The Dallas Cowboys have the most Super Bowl losses with 3 (17.6%) and the remaining losing Super Bowl teams each have
 one defeat.
+
+# Texas Super Bowls
+
+There have been a total of 4 Super Bowls held in the state of Texas. The summary statistics show that Super Bowl winning teams have scored an average over 30 points (30.25 exactly), with a maximum of 34 points and a minimum of 24 points. Super Bowl losing teams have scored over 22 points (22.25 exactly), with a maximum of 29 points and a minimum of 7 points. 
+
+After viewing the statistical summaries, the Super Bowl winners and losers were determined. The New England Patriots have won the most Super Bowls in Texas with 2 victories. Each Super Bowl losing team (Atlanta Falcons, Carolina Panthers, Minnesota Vikings, and Pittsburgh Steelers) has one defeat.
+
+# California Super Bowls
+
+There have been a total of 13 Super Bowls held in the state of California. The summary statistics show that Super Bowl winning teams have scored an average under 34 points (33.54 exactly), with a maximum of 52 points and a minimum of 14 points. Super Bowl losing teams have scored an average under 16 points (15.77 exactly), with a maximum of 24 points and a minimum of 7 points. After looking at summary statistics, graphical displays of the number of Super Bowl winning and losing teams were created.
+
+<img width="1020" alt="image" src="https://github.com/reimerb13/NFL-Super-Bowl-Analysis/assets/79723505/4cf6e808-62c8-4db0-9803-763ac9d42e9e">
+
+The Denver Broncos and Washington Redskins (now called the Washington Commanders) each are tied with two Super Bowl victories in California.
+
+<img width="857" alt="image" src="https://github.com/reimerb13/NFL-Super-Bowl-Analysis/assets/79723505/f73570a5-56d6-40a4-850d-93eacdbbdd10">
+
+The Denver Broncos and Miami Dolphins are tied with two Super Bowl defeats in California.
 
 
 
