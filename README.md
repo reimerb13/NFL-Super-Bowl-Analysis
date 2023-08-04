@@ -184,6 +184,16 @@ The picture above shows the projected 15 Super Bowl points scored by losing team
 
 The graph above shows the time series analysis for the next 15 Super Bowl losers between 2024-2039.
 
+# Super Bowl State Projections
+
+A time series analysis was conducted to project the next 15 Super Bowl states that should host between 2024-2039. 
+
+<img width="531" alt="image" src="https://github.com/reimerb13/NFL-Super-Bowl-Analysis/assets/79723505/516c3ee9-fa65-437a-97d1-8c27be1e8c4e">
+
+From the projection, Florida should have four more Super Bowls in the next 15 years. Arizona should have three additional Super Bowls, while Texas and California should each have two additional Super Bowls. Georgia, Louisiana,
+Minnesota, and Indiana should each have one additional Super Bowl.
+
+
 
 
 
