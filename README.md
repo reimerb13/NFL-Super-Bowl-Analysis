@@ -117,9 +117,9 @@ There have been four different teams that won Super Bowls in the state of Arizon
 
 There have been a total of 10 Super Bowls held in the state of Louisiana. The summary statistics show that Super Bowl winning teams have scored an average of under 31 points (30.7 exactly), with a maximum of 55 points and a minimum of 16 points. Super Bowl losing teams have scored an average under 13 points (12.5 exactly), with a maximum of 31 points and a minimum of 3 points. 
 
-<img width="1160" alt="image" src="https://github.com/reimerb13/NFL-Super-Bowl-Analysis/assets/79723505/359d9741-0d98-4b77-b4a7-f7f4005d3f14">
+<img width="1161" alt="image" src="https://github.com/reimerb13/NFL-Super-Bowl-Analysis/assets/79723505/f0dcee57-b535-4914-921f-16fb1a145896">
 
-The Baltimore Ravens and Dallas Cowboys have each won two Super Bowls in the state of Louisiana. 
+The Dallas Cowboys have won two Super Bowls in the state of Louisiana. 
 
 <img width="1160" alt="image" src="https://github.com/reimerb13/NFL-Super-Bowl-Analysis/assets/79723505/9bf5cd6f-44d3-4385-8757-598c5a9bfa0a">
 
