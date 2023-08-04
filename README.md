@@ -157,19 +157,32 @@ The bar graph above shows the Super Bowl winner scores from all 57 Super Bowls. 
 
 The bar graph above shows the Super Bowl loser scores from all 57 Super Bowls. The point scores have a 10 point break between each number (10-20, 20-30, 30-40, 40-50) with a 5 minute break in the middle of each 10 point break. From the graph, it's evident that most Super Bowl losers (17 teams) scored between 5-10 points or 15-20 points to lose their respective Super Bowl games. Two Super Bowl teams lost games with scores between 0-5 points and four Super Bowl teams lost games with scores between 30-35 points.
 
-## Super Bowl Winning Team Score Projections
+# Super Bowl Winning Team Score Projections
 
 A time series analysis was conducted to project the next 15 Super Bowl winning scores that teams could score between 2024-2039.
 
 ![image](https://github.com/reimerb13/NFL-Super-Bowl-Analysis/assets/79723505/8e909136-6f84-4d63-9d1d-6a4cafc8e9e9)
 
-
-The picture above shows the next 15 Super Bowl victory points scored by teams in Super Bowls from 2024-2039. On average, winning teams will need to score under 30 points (29.19 exactly) to secure a Super Bowl victory. One team will score a maximum of 43 points during their Super Bowl victory and one team will only need to score 13 poitns to secure their Super Bowl victory.
+The picture above shows the next 15 Super Bowl victory points scored by teams in Super Bowls from 2024-2039. On average, winning teams will need to score under 30 points (29.19 exactly) to secure a Super Bowl victory. One team will score a maximum of 43 points during their Super Bowl victory and one team will only need to score 13 points to secure their Super Bowl victory.
 
 ![image](https://github.com/reimerb13/NFL-Super-Bowl-Analysis/assets/79723505/f9a868e2-da1e-47ca-948a-2e68650b8b4e)
 
 
-The graph above shows the 
+The graph above shows the time series analysis for the next 15 Super Bowl winners between 2024-2039.
+
+# Super Bowl Losing Team Score Projections
+
+A time series analysis was conducted to project the next 15 Super Bowl losing scores that teams could score between 2024-2039.
+
+<img width="387" alt="image" src="https://github.com/reimerb13/NFL-Super-Bowl-Analysis/assets/79723505/f402240e-5435-491d-a16a-7f273be00d9d">
+
+The picture above shows the projected 15 Super Bowl points scored by losing teams in Super Bowls from 2024-2039. On average, losing teams will score under 20 points (19.81 exactly) to have a Super Bowl defeat. One team will score a maximum of 35 points during their Super Bowl loss and one team will score 3 points to secure their Super Bowl defeat.
+
+<img width="553" alt="image" src="https://github.com/reimerb13/NFL-Super-Bowl-Analysis/assets/79723505/7d93fe25-e26f-487d-b2c0-0ac047bda13e">
+
+The graph above shows the time series analysis for the next 15 Super Bowl losers between 2024-2039.
+
+
 
 
 
