@@ -147,16 +147,27 @@ There has only been one Super Bowl that occurred in New Jersey. The score was 43
 
 Two different bar graphs were created to look at the number of points scored by Super Bowl winners and losers.
 
-<img width="1102" alt="image" src="https://github.com/reimerb13/NFL-Super-Bowl-Analysis/assets/79723505/4b6b6a1d-6314-4769-9a48-faec3c8cbd23">
-
-The bar graph above shows the Super Bowl winner scores from all 57 Super Bowls. The point scores have a 10 point break between each number (10-20, 20-30, 30-40, 40-50) with a 5 minute break in the middle of each 10 point break. From the graph, it's evident that most Super Bowl winners (15 teams) scored between 30-35 points to win their respective Super Bowl games. Two Super Bowl teams were able to win games with scores between 10-15 points and two Super Bowl teams were able to win games with scores between 50-55 points.
-
-<img width="1102" alt="image" src="https://github.com/reimerb13/NFL-Super-Bowl-Analysis/assets/79723505/9383e04b-ee91-45e8-aa1a-dd90681b7c0e">
-
-The bar graph above shows the Super Bowl loser scores from all 57 Super Bowls. The point scores have a 10 point break between each number (10-20, 20-30, 30-40, 40-50) with a 5 minute break in the middle of each 10 point break. From the graph, it's evident that most Super Bowl losers (16 teams) scored between 5-10 points or 15-20 points to lose their respective Super Bowl games. Two Super Bowl teams lost games with scores between 0-5 points and three Super Bowl lost games with scores between 30-35 points.
+<img width="1143" alt="image" src="https://github.com/reimerb13/NFL-Super-Bowl-Analysis/assets/79723505/1386c119-6091-42c1-849f-d785c807d5f7">
 
 
+The bar graph above shows the Super Bowl winner scores from all 57 Super Bowls. The point scores have a 10 point break between each number (10-20, 20-30, 30-40, 40-50) with a 5 minute break in the middle of each 10 point break. From the graph, it's evident that most Super Bowl winners (16 teams) scored between 30-35 points to win their respective Super Bowl games. Two Super Bowl teams were able to win games with scores between 10-15 points and two Super Bowl teams were able to win games with scores between 50-55 points.
 
+<img width="1143" alt="image" src="https://github.com/reimerb13/NFL-Super-Bowl-Analysis/assets/79723505/c1c203de-1ff6-4e9e-8b0e-ea0b0f84b3e0">
+
+
+The bar graph above shows the Super Bowl loser scores from all 57 Super Bowls. The point scores have a 10 point break between each number (10-20, 20-30, 30-40, 40-50) with a 5 minute break in the middle of each 10 point break. From the graph, it's evident that most Super Bowl losers (17 teams) scored between 5-10 points or 15-20 points to lose their respective Super Bowl games. Two Super Bowl teams lost games with scores between 0-5 points and four Super Bowl teams lost games with scores between 30-35 points.
+
+## Super Bowl Winning Team Score Projections
+
+A time series analysis was conducted to project the next 15 Super Bowl winning scores that teams could score between 2024-2039.
+
+<img width="397" alt="image" src="https://github.com/reimerb13/NFL-Super-Bowl-Analysis/assets/79723505/db88d3d0-deb7-4af4-b94e-5ce819e3e077">
+
+The picture above shows the next 15 Super Bowl victory points scored by teams in Super Bowls from 2024-2039. On average, winning teams will need to score under 30 points (29.19 exactly) to secure a Super Bowl victory. One team will score a maximum of 43 points during their Super Bowl victory and one team will only need to score 13 poitns to secure their Super Bowl victory.
+
+<img width="525" alt="image" src="https://github.com/reimerb13/NFL-Super-Bowl-Analysis/assets/79723505/e07f67cc-c8f6-4d3c-935d-4643d5e00b9b">
+
+The graph above shows the 
 
 
 
