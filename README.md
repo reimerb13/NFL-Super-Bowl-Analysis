@@ -161,7 +161,8 @@ The bar graph above shows the Super Bowl loser scores from all 57 Super Bowls. T
 
 A time series analysis was conducted to project the next 15 Super Bowl winning scores that teams could score between 2024-2039.
 
-<img width="397" alt="image" src="https://github.com/reimerb13/NFL-Super-Bowl-Analysis/assets/79723505/db88d3d0-deb7-4af4-b94e-5ce819e3e077">
+![image](https://github.com/reimerb13/NFL-Super-Bowl-Analysis/assets/79723505/8e909136-6f84-4d63-9d1d-6a4cafc8e9e9)
+
 
 The picture above shows the next 15 Super Bowl victory points scored by teams in Super Bowls from 2024-2039. On average, winning teams will need to score under 30 points (29.19 exactly) to secure a Super Bowl victory. One team will score a maximum of 43 points during their Super Bowl victory and one team will only need to score 13 poitns to secure their Super Bowl victory.
 
