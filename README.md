@@ -91,11 +91,13 @@ After viewing the statistical summaries, the Super Bowl winners and losers were 
 
 There have been a total of 13 Super Bowls held in the state of California. The summary statistics show that Super Bowl winning teams have scored an average under 34 points (33.54 exactly), with a maximum of 52 points and a minimum of 14 points. Super Bowl losing teams have scored an average under 16 points (15.77 exactly), with a maximum of 24 points and a minimum of 7 points. After looking at summary statistics, graphical displays of the number of Super Bowl winning and losing teams were created.
 
-<img width="1020" alt="image" src="https://github.com/reimerb13/NFL-Super-Bowl-Analysis/assets/79723505/4cf6e808-62c8-4db0-9803-763ac9d42e9e">
+<img width="1158" alt="image" src="https://github.com/reimerb13/NFL-Super-Bowl-Analysis/assets/79723505/854641a1-d992-40c7-ad23-be9bf8d39603">
+
 
 The Denver Broncos and Washington Redskins (now called the Washington Commanders) each are tied with two Super Bowl victories in California.
 
-<img width="857" alt="image" src="https://github.com/reimerb13/NFL-Super-Bowl-Analysis/assets/79723505/f73570a5-56d6-40a4-850d-93eacdbbdd10">
+<img width="1158" alt="image" src="https://github.com/reimerb13/NFL-Super-Bowl-Analysis/assets/79723505/b1abb1ce-8a45-4627-ac11-c38853d488cd">
+
 
 The Denver Broncos and Miami Dolphins are tied with two Super Bowl defeats in California.
 
