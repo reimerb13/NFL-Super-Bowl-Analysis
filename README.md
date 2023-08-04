@@ -99,6 +99,65 @@ The Denver Broncos and Washington Redskins (now called the Washington Commanders
 
 The Denver Broncos and Miami Dolphins are tied with two Super Bowl defeats in California.
 
+# Georgia Super Bowls
+
+There have been a total of three Super Bowls held in the state of Georgia. The summary statistics show that Super Bowl winning teams have scored an average of 22 points, with a maximum of 30 points and a minimum of 13 points. Super Bowl losing teams have scored an average under 11 points (10.67 exactly), with a maximum of 16 points and a minimum of 3 points. 
+
+There have been three different teams that won Super Bowls in the state of Georgia: Dallas Cowboys, New England Patriots, and St. Louis Rams. There have been three different teams that lost Super Bowls in the state of Georgia: Buffalo Bills, Los Angeles Rams, and Tennessee Titans.
+
+# Arizona Super Bowls
+
+There have been a total of four Super Bowls held in the state of Arizona. The summary statistics show that Super Bowl winning teams have scored an average of under 28 points (27.5 exactly), with a maximum of 38 points and a minimum of 17 points. Super Bowl losing teams have scored an average under 23 points (22.5 exactly), with a maximum of 35 points and a minimum of 14 points. 
+
+There have been four different teams that won Super Bowls in the state of Arizona: Dallas Cowboys, Kansas City Chiefs, New England Patriots, and New York Giants. There have been four different teams that lost Super Bowls in the state of Georgia: New England Patriots, Philadelphia Eagles, Pittsburgh Steelers, and Seattle Seahawks.
+
+# Louisiana Super Bowls
+
+There have been a total of 10 Super Bowls held in the state of Louisiana. The summary statistics show that Super Bowl winning teams have scored an average of under 31 points (30.7 exactly), with a maximum of 55 points and a minimum of 16 points. Super Bowl losing teams have scored an average under 13 points (12.5 exactly), with a maximum of 31 points and a minimum of 3 points. 
+
+<img width="1160" alt="image" src="https://github.com/reimerb13/NFL-Super-Bowl-Analysis/assets/79723505/359d9741-0d98-4b77-b4a7-f7f4005d3f14">
+
+The Baltimore Ravens and Dallas Cowboys have each won two Super Bowls in the state of Louisiana. 
+
+<img width="1160" alt="image" src="https://github.com/reimerb13/NFL-Super-Bowl-Analysis/assets/79723505/9bf5cd6f-44d3-4385-8757-598c5a9bfa0a">
+
+The Denver Broncos, Minnesota Vikings, and New England Patriots are all tied with two Super Bowl defeats in the state of Louisiana.
+
+# Michigan Super Bowls
+
+There have been a total of two Super Bowls held in the state of Michigan. The summary statistics show that Super Bowl winning teams have scored an average of under 24 points (23.5 exactly), with a maximum of 26 points and a minimum of 21 points. Super Bowl losing teams have scored an average under 16 points (15.5 exactly), with a maximum of 21 points and a minimum of 10 points. 
+
+The Pittsburgh Steelers and San Francisco 49ers are the only teams who have won a Super Bowl in Michigan. The Cincinnati Bengals and Seattle Seahawks are the only teams that have lost a Super Bowl in Michigan.
+
+# Minnesota Super Bowls
+
+There have been a total of two Super Bowls held in the state of Minnesota. The summary statistics show that Super Bowl winning teams have scored an average of 39 points, with a maximum of 41 points and a minimum of 37 points. Super Bowl losing teams have scored an average under 29 points (28.5 exactly), with a maximum of 33 points and a minimum of 24 points. 
+
+The Philadelphia Eagles and Washington Redskins (now known as the Washington Commanders) are the only teams who have won a Super Bowl in Minnesota. The Buffalo Bills and New England Patriots are the only teams that have lost a Super Bowl in Minnesota.
+
+# Indiana Super Bowl
+
+There has only been one Super Bowl that occurred in Indiana. The score was 21-17 with the New York Giants as the Super Bowl winner and New England Patriots as the Super Bowl loser.
+
+# New Jersey Super Bowl
+
+There has only been one Super Bowl that occurred in New Jersey. The score was 43-8 with the Seattle Seahawks as the Super Bowl winner and Denver Broncos as the Super Bowl loser.
+
+# Super Bowl Scores
+
+Two different bar graphs were created to look at the number of points scored by Super Bowl winners and losers.
+
+<img width="1102" alt="image" src="https://github.com/reimerb13/NFL-Super-Bowl-Analysis/assets/79723505/4b6b6a1d-6314-4769-9a48-faec3c8cbd23">
+
+The bar graph above shows the Super Bowl winner scores from all 57 Super Bowls. The point scores have a 10 point break between each number (10-20, 20-30, 30-40, 40-50) with a 5 minute break in the middle of each 10 point break. From the graph, it's evident that most Super Bowl winners (15 teams) scored between 30-35 points to win their respective Super Bowl games. Two Super Bowl teams were able to win games with scores between 10-15 points and two Super Bowl teams were able to win games with scores between 50-55 points.
+
+<img width="1102" alt="image" src="https://github.com/reimerb13/NFL-Super-Bowl-Analysis/assets/79723505/9383e04b-ee91-45e8-aa1a-dd90681b7c0e">
+
+The bar graph above shows the Super Bowl loser scores from all 57 Super Bowls. The point scores have a 10 point break between each number (10-20, 20-30, 30-40, 40-50) with a 5 minute break in the middle of each 10 point break. From the graph, it's evident that most Super Bowl losers (16 teams) scored between 5-10 points or 15-20 points to lose their respective Super Bowl games. Two Super Bowl teams lost games with scores between 0-5 points and three Super Bowl lost games with scores between 30-35 points.
+
+
+
+
 
 
 
