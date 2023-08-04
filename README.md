@@ -165,7 +165,8 @@ A time series analysis was conducted to project the next 15 Super Bowl winning s
 
 The picture above shows the next 15 Super Bowl victory points scored by teams in Super Bowls from 2024-2039. On average, winning teams will need to score under 30 points (29.19 exactly) to secure a Super Bowl victory. One team will score a maximum of 43 points during their Super Bowl victory and one team will only need to score 13 poitns to secure their Super Bowl victory.
 
-<img width="525" alt="image" src="https://github.com/reimerb13/NFL-Super-Bowl-Analysis/assets/79723505/e07f67cc-c8f6-4d3c-935d-4643d5e00b9b">
+![image](https://github.com/reimerb13/NFL-Super-Bowl-Analysis/assets/79723505/f9a868e2-da1e-47ca-948a-2e68650b8b4e)
+
 
 The graph above shows the 
 
