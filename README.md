@@ -3,8 +3,7 @@
 # Project Summary
 
 The purpose of the project was to analyze data from all 57 Super Bowls that have been held by the NFL and projecting
-point totals that Super Bowl winners and losers will score in the upcoming 15 Super Bowls. This project does not account
-for plays run by Super Bowl teams, as well as any penalities that occurred.
+point totals that Super Bowl winners and losers will score in the upcoming 15 Super Bowls. A secondary purpose was to determine whether or not geographic location plays a role in Super Bowl scores. This project does not account for plays run by Super Bowl teams, as well as any penalities that occurred.
 
 # Data Collection
 
@@ -193,6 +192,9 @@ A time series analysis was conducted to project the next 15 Super Bowl states th
 From the projection, Florida should have four more Super Bowls in the next 15 years. Arizona should have three additional Super Bowls, while Texas and California should each have two additional Super Bowls. Georgia, Louisiana,
 Minnesota, and Indiana should each have one additional Super Bowl.
 
+# Conclusions
+
+Geographic location does play a role in Super Bowl scores. 
 
 
 
