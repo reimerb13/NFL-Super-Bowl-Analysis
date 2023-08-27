@@ -238,7 +238,7 @@ Based on the location of the Super Bowl, the amount of points teams need to scor
 | Florida  | 29 points (28.76 exactly)  | 17 points (16.76 exactly) |
 | California  | 34 points (33.54 exactly)  | 16 points (15.77 exactly) |
 | Louisiana | 31 points (30.7 exactly) | 13 points (12.5 exactly) |
-| Arizona | | 28 points (27.5 exactly) | 23 points (22.5 exactly) |
+| Arizona | 28 points (27.5 exactly) | 23 points (22.5 exactly) |
 | Texas | 30 points (30.25 exactly) | 22 points (22.25 exactly) |
 
 Florida winners: score an average of under 29 points (28.76 points exactly)
