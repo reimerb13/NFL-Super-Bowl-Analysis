@@ -254,6 +254,10 @@ Of the teams that have hosted more than four Super Bowl games, games held in Cal
 
 Of the teams that have hosted fewer than four Super Bowl games, games in Michigan have a range of roughly 16 points between winners and losers, while Super Bowl games in Georgia had a range of 11 points and games in Minnesota had a range of 10 points.
 
+In the next 15 years, Super Bowl winning teams should be projected to score an average of 30 points while Super Bowl losing teams should be projected to score an average of just over 20 points (20.2 exactly). Florida is projected to host an additional four Super Bowls. A few other states (California, Arizona, and Texas) are projected to host an additional two Super Bowls. The remaining states (Georgia, Indiana, Louisiana, Minnesota, and New Jersey) should host one additional Super Bowl.
+
+# Future Project Ideas
+
 
 
 
