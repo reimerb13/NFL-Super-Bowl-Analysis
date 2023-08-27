@@ -53,11 +53,17 @@ The following libraries were used in R to complete the Super Bowl analysis:
 
 - magrittr
 
+- usmap
+
 # Data Preparation
 
 The superbowl.csv file was uploaded into R and was called NFL. The NFL dataset had 54 observations and 10 variables. The superbowl2.csv file was uploaded into R and was called NFL2. The NFL2 dataset had 3 observations and 10 variables. Once these 2 datasets were uploaded into R, they were merged together as one whole dataset that was called NFL_list. The NFL_list contained 57 observations and 10 variables.
 
 There were several subsets of the NFL_list dataset that were created by the state location where Super Bowls were held. The subsets created were called Florida, Texas, California, Georgia, Arizona, Louisiana, Michigan, Minnesota, Indiana, and New Jersey.
+
+<img width="911" alt="image" src="https://github.com/reimerb13/NFL-Super-Bowl-Analysis/assets/79723505/1b2aca67-8249-4cd8-a0dd-528dc5f958dd">
+
+
 
 # NFL_List Data
 
@@ -67,6 +73,9 @@ Bowl losing teams scored roughly 16 points per defeat (16.47 to be exact), with 
 Two teams (New England Patriots and Pittsburgh Steeleres) are tied for the most Super Bowl victories with 6. Two teams (Denver Broncos and New England Patriots) are tied for the most Super Bowl lossess with 5.
 
 # Florida Super Bowls
+
+<img width="911" alt="image" src="https://github.com/reimerb13/NFL-Super-Bowl-Analysis/assets/79723505/cbba7356-286e-469b-bc45-10e571ead401">
+
 
 There have been a total of 17 Super Bowls held in the state of Florida. The summary statistics show that Super Bowl winning teams have scored an average under 29 points (28.76 exactly), with a maximum of 49 points and a minimum of 16 points. Super Bowl losing teams have scored an average under 17 points (16.76 exactly), with a maximum of 31 points and a minimum of 7 points. After looking at summary statistics, graphical displays of the number of Super Bowl winning and losing teams were created.
 
@@ -82,11 +91,17 @@ one defeat.
 
 # Texas Super Bowls
 
+<img width="911" alt="image" src="https://github.com/reimerb13/NFL-Super-Bowl-Analysis/assets/79723505/d210b74d-cf84-4d3e-ad77-d4ce1c7da5a2">
+
+
 There have been a total of 4 Super Bowls held in the state of Texas. The summary statistics show that Super Bowl winning teams have scored an average over 30 points (30.25 exactly), with a maximum of 34 points and a minimum of 24 points. Super Bowl losing teams have scored over 22 points (22.25 exactly), with a maximum of 29 points and a minimum of 7 points. 
 
 After viewing the statistical summaries, the Super Bowl winners and losers were determined. The New England Patriots have won the most Super Bowls in Texas with 2 victories. Each Super Bowl losing team (Atlanta Falcons, Carolina Panthers, Minnesota Vikings, and Pittsburgh Steelers) has one defeat.
 
 # California Super Bowls
+
+<img width="485" alt="image" src="https://github.com/reimerb13/NFL-Super-Bowl-Analysis/assets/79723505/e76e8682-2c1e-470b-9efc-91421eb505bc">
+
 
 There have been a total of 13 Super Bowls held in the state of California. The summary statistics show that Super Bowl winning teams have scored an average under 34 points (33.54 exactly), with a maximum of 52 points and a minimum of 14 points. Super Bowl losing teams have scored an average under 16 points (15.77 exactly), with a maximum of 24 points and a minimum of 7 points. After looking at summary statistics, graphical displays of the number of Super Bowl winning and losing teams were created.
 
@@ -102,17 +117,26 @@ The Denver Broncos and Miami Dolphins are tied with two Super Bowl defeats in Ca
 
 # Georgia Super Bowls
 
+<img width="594" alt="image" src="https://github.com/reimerb13/NFL-Super-Bowl-Analysis/assets/79723505/49e426c4-04f4-47db-b3fa-7ca698683672">
+
+
 There have been a total of three Super Bowls held in the state of Georgia. The summary statistics show that Super Bowl winning teams have scored an average of 22 points, with a maximum of 30 points and a minimum of 13 points. Super Bowl losing teams have scored an average under 11 points (10.67 exactly), with a maximum of 16 points and a minimum of 3 points. 
 
 There have been three different teams that won Super Bowls in the state of Georgia: Dallas Cowboys, New England Patriots, and St. Louis Rams. There have been three different teams that lost Super Bowls in the state of Georgia: Buffalo Bills, Los Angeles Rams, and Tennessee Titans.
 
 # Arizona Super Bowls
 
+<img width="594" alt="image" src="https://github.com/reimerb13/NFL-Super-Bowl-Analysis/assets/79723505/2f6fa004-0621-45ab-bcf9-13ce8b2ebfb4">
+
+
 There have been a total of four Super Bowls held in the state of Arizona. The summary statistics show that Super Bowl winning teams have scored an average of under 28 points (27.5 exactly), with a maximum of 38 points and a minimum of 17 points. Super Bowl losing teams have scored an average under 23 points (22.5 exactly), with a maximum of 35 points and a minimum of 14 points. 
 
 There have been four different teams that won Super Bowls in the state of Arizona: Dallas Cowboys, Kansas City Chiefs, New England Patriots, and New York Giants. There have been four different teams that lost Super Bowls in the state of Georgia: New England Patriots, Philadelphia Eagles, Pittsburgh Steelers, and Seattle Seahawks.
 
 # Louisiana Super Bowls
+
+<img width="717" alt="image" src="https://github.com/reimerb13/NFL-Super-Bowl-Analysis/assets/79723505/f6cf02d1-25f8-403b-8be4-999e59f876f8">
+
 
 There have been a total of 10 Super Bowls held in the state of Louisiana. The summary statistics show that Super Bowl winning teams have scored an average of under 31 points (30.7 exactly), with a maximum of 55 points and a minimum of 16 points. Super Bowl losing teams have scored an average under 13 points (12.5 exactly), with a maximum of 31 points and a minimum of 3 points. 
 
@@ -126,11 +150,15 @@ The Denver Broncos, Minnesota Vikings, and New England Patriots are all tied wit
 
 # Michigan Super Bowls
 
+<img width="717" alt="image" src="https://github.com/reimerb13/NFL-Super-Bowl-Analysis/assets/79723505/cd0ab76d-2245-460e-afa4-0807e7c473be">
+
 There have been a total of two Super Bowls held in the state of Michigan. The summary statistics show that Super Bowl winning teams have scored an average of under 24 points (23.5 exactly), with a maximum of 26 points and a minimum of 21 points. Super Bowl losing teams have scored an average under 16 points (15.5 exactly), with a maximum of 21 points and a minimum of 10 points. 
 
 The Pittsburgh Steelers and San Francisco 49ers are the only teams who have won a Super Bowl in Michigan. The Cincinnati Bengals and Seattle Seahawks are the only teams that have lost a Super Bowl in Michigan.
 
 # Minnesota Super Bowls
+
+<img width="717" alt="image" src="https://github.com/reimerb13/NFL-Super-Bowl-Analysis/assets/79723505/27f42f02-e6d3-4e05-ba51-01f77269f2fc">
 
 There have been a total of two Super Bowls held in the state of Minnesota. The summary statistics show that Super Bowl winning teams have scored an average of 39 points, with a maximum of 41 points and a minimum of 37 points. Super Bowl losing teams have scored an average under 29 points (28.5 exactly), with a maximum of 33 points and a minimum of 24 points. 
 
@@ -138,9 +166,15 @@ The Philadelphia Eagles and Washington Redskins (now known as the Washington Com
 
 # Indiana Super Bowl
 
+<img width="410" alt="image" src="https://github.com/reimerb13/NFL-Super-Bowl-Analysis/assets/79723505/7f53a8fe-6cb1-413d-8574-83f6d0b0c9b1">
+
+
 There has only been one Super Bowl that occurred in Indiana. The score was 21-17 with the New York Giants as the Super Bowl winner and New England Patriots as the Super Bowl loser.
 
 # New Jersey Super Bowl
+
+<img width="410" alt="image" src="https://github.com/reimerb13/NFL-Super-Bowl-Analysis/assets/79723505/5abf18ea-0185-49da-a41b-d5d3fd8745ea">
+
 
 There has only been one Super Bowl that occurred in New Jersey. The score was 43-8 with the Seattle Seahawks as the Super Bowl winner and Denver Broncos as the Super Bowl loser.
 
@@ -160,37 +194,38 @@ The bar graph above shows the Super Bowl loser scores from all 57 Super Bowls. T
 
 # Super Bowl Winning Team Score Projections
 
-A time series analysis was conducted to project the next 15 Super Bowl winning scores that teams could score between 2024-2039.
+A time series analysis was conducted to project the next 15 Super Bowl winning scores that teams could score between 2024-2038.
 
-![image](https://github.com/reimerb13/NFL-Super-Bowl-Analysis/assets/79723505/8e909136-6f84-4d63-9d1d-6a4cafc8e9e9)
+<img width="410" alt="image" src="https://github.com/reimerb13/NFL-Super-Bowl-Analysis/assets/79723505/95a170a1-32e7-494d-9042-f918683c7cb2">
+
 
 The picture above shows the next 15 Super Bowl victory points scored by teams in Super Bowls from 2024-2039. On average, winning teams will need to score under 30 points (29.19 exactly) to secure a Super Bowl victory. One team will score a maximum of 43 points during their Super Bowl victory and one team will only need to score 13 points to secure their Super Bowl victory.
 
-![image](https://github.com/reimerb13/NFL-Super-Bowl-Analysis/assets/79723505/f9a868e2-da1e-47ca-948a-2e68650b8b4e)
+<img width="1066" alt="image" src="https://github.com/reimerb13/NFL-Super-Bowl-Analysis/assets/79723505/616b28a5-0429-4b7d-822a-6437b0de9f52">
 
-
-The graph above shows the time series analysis for the next 15 Super Bowl winners between 2024-2039.
+The graph above shows the time series analysis for the next 15 Super Bowl winners between 2024-2038.
 
 # Super Bowl Losing Team Score Projections
 
 A time series analysis was conducted to project the next 15 Super Bowl losing scores that teams could score between 2024-2039.
 
-<img width="387" alt="image" src="https://github.com/reimerb13/NFL-Super-Bowl-Analysis/assets/79723505/f402240e-5435-491d-a16a-7f273be00d9d">
+<img width="376" alt="image" src="https://github.com/reimerb13/NFL-Super-Bowl-Analysis/assets/79723505/3e1f1b80-3b9d-48ad-a590-d58088337b76">
+
 
 The picture above shows the projected 15 Super Bowl points scored by losing teams in Super Bowls from 2024-2039. On average, losing teams will score under 20 points (19.81 exactly) to have a Super Bowl defeat. One team will score a maximum of 35 points during their Super Bowl loss and one team will score 3 points to secure their Super Bowl defeat.
 
-<img width="553" alt="image" src="https://github.com/reimerb13/NFL-Super-Bowl-Analysis/assets/79723505/7d93fe25-e26f-487d-b2c0-0ac047bda13e">
+<img width="1071" alt="image" src="https://github.com/reimerb13/NFL-Super-Bowl-Analysis/assets/79723505/0bde881b-b04b-41a5-a7e3-89cc3dbc206e">
 
-The graph above shows the time series analysis for the next 15 Super Bowl losers between 2024-2039.
+
+The graph above shows the time series analysis for the next 15 Super Bowl losers between 2024-2038.
 
 # Super Bowl State Projections
 
-A time series analysis was conducted to project the next 15 Super Bowl states that should host between 2024-2039. 
+A time series analysis was conducted to project the next 15 Super Bowl states that should host between 2024-2038. 
 
-<img width="531" alt="image" src="https://github.com/reimerb13/NFL-Super-Bowl-Analysis/assets/79723505/516c3ee9-fa65-437a-97d1-8c27be1e8c4e">
+<img width="446" alt="image" src="https://github.com/reimerb13/NFL-Super-Bowl-Analysis/assets/79723505/4bdc2ad9-3c21-498d-bd46-abcaae73b071">
 
-From the projection, Florida should have four more Super Bowls in the next 15 years. Arizona should have three additional Super Bowls, while Texas and California should each have two additional Super Bowls. Georgia, Louisiana,
-Minnesota, and Indiana should each have one additional Super Bowl.
+The next 15 Super Bowl states were projected. Arizona should host two Super Bowls, California should host two Super Bowls, Florida should host four Super Bowls, Georgia should host one Super Bowl, Indiana should host one Super Bowl, Louisiana should host one Super Bowl, Minnesota should host one Super Bowl, New Jersey should host one Super Bowl, and Texas should host two Super Bowls.
 
 # Conclusions
 
