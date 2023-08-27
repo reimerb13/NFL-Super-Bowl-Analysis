@@ -1,0 +1,582 @@
+---
+title: "Football"
+author: "Ben Reimer"
+date: '2022-08-27'
+output: html_document
+---
+
+```{r install_packages}
+library(dplyr)
+library(readr)
+library(tseries)
+library(ggplot2)
+library(stats)
+library(forecast)
+library(magrittr)
+library(usmap)
+```
+
+## Install Packages
+
+The following packages were installed: dplyr, readr, adabag, tseries, ggplot2, and stats.
+
+```{r NFL_data}
+NFL<- read.csv("/Users/benjaminreimer/Desktop/superbowl.csv")
+NFL
+```
+## NFL Data
+
+The code above imported the superbowl.csv data into R and was named 'NFL'.
+
+```{r NFL2_data}
+NFL2<- read.csv("/Users/benjaminreimer/Desktop/superbowl2.csv")
+NFL2
+```
+## NFL2 Data
+
+The code above imported the superbowl2.csv data into R and was named 'NFL2'.
+
+```{r NFL_list}
+NFL_list <- rbind(NFL2, NFL)
+NFL_list
+```
+
+## NFL_list Data
+
+The code above merged the NFL and NFL2 datasets into R and was named 'NFL_list'.
+
+```{r NFL_dim}
+dim(NFL_list)
+str(NFL_list)
+```
+
+## NFL Dimensions
+The NFL dataset contains 57 observations with 10 different variables. There are only two integer variables: Winner.Pts and Loser.Pts. The other eight variables are character variables.
+
+```{r NFL_summary}
+summary(NFL_list)
+```
+
+## NFL Summary Data
+
+The Winner.Pts and Loser.Pts variable have numeric data that contains quartile values, median, and mean. The maximum number of points scored to win the Super Bowl was 55 points and the minimum number of points scored for a Super Bowl win was 13. The average number of points that Super Bowl winning teams scored was roughly 30 points. The maximum number of points score to a losing Super Bowl team was 35 points and the minimum number of points scored for a losing Super Bowl team was 3 points. The average number of points scored by Super Bowl losing teams is roughly 16 points.
+
+```{r Winner_count}
+NFL_list %>% count(Winner, sort = T)
+```
+
+## Winner Count
+
+The code above shows the count of Super Bowl victories by team. The New England Patriots and Pittsburgh Steelers lead all organizations with 6 Super Bowl victories.
+
+
+```{r Loser_count}
+NFL_list %>% count(Loser, sort = T)
+```
+
+## Loser Count
+
+The code above shows the count of Super Bowl losses by team. The New England Patriots and Denver Broncos lead all organizations with 5 Super Bowl losses.
+
+```{r super_map}
+plot_usmap(include = c("FL", "GA", "AZ", "CA", "NJ", "MN", "IN", "TX", "LA"),labels = TRUE) +
+labs(title = "Super Bowl Host States")
+```
+
+## Super Bowl State Map
+
+The code above created a map of all the states that have hosted the Super Bowl: Florida, Georgia, Louisiana, Texas, Arizona, California, Minnesota, Indiana, and New Jersey.
+
+```{r florida_state}
+plot_usmap(include = c("FL"), labels = TRUE) + labs(title = "State of Florida")
+```
+## Map of Florida
+
+The code above shows the state of Florida.
+
+
+```{r FA_data}
+Florida <- subset(NFL_list, State=='Florida')
+summary(Florida)
+```
+# Florida Super Bowl Data
+There have been 17 Super Bowl games, where the Winning teams score an average of roughly 29 points and the Losing teams score an average of roughly 17 points.
+
+```{r FA_win}
+Florida %>% count(Winner, sort = T)
+```
+
+## Florida Winning Team Counts
+
+The code above shows the number of times teams won the Super Bowl in Florida. The Pittsburgh Steelers won the most Super Bowls in Florida with 3 victories.
+
+```{r Florida_win}
+Florida_win <- Florida %>% 
+  group_by(Winner) %>% # Variable to be transformed
+  count() %>% 
+  ungroup() %>% 
+  mutate(perc = `n` / sum(`n`)) %>% 
+  arrange(perc) %>%
+  mutate(labels = scales::percent(perc))
+```
+
+## Winners of Florida Super Bowls Table
+
+In the code above, a table of Super Bowl winners in Florida was created. 
+
+```{r FAwin_pie}
+ggplot(Florida_win, aes(x = "", y = perc, fill = Winner))+ggtitle("Percentage of Super Bowl Winners in Florida")+
+  geom_col() +
+  geom_text(aes(label = labels),
+            position = position_stack(vjust = 0.5)) +
+  coord_polar(theta = "y")
+```
+
+## Florida Winners Pie Chart
+
+In the code above, a pie chart of the Super Bowl winners in the state of Florida was created. The percentages were included in the pie chart. The Pittsburgh Steelers have won 17.6% of Super Bowls in Florida.
+
+```{r FA_lose}
+Florida %>% count(Loser, sort = T)
+```
+
+## Florida Losing Team Counts
+
+The code above shows the number of times teams lost in the Super Bowl. The Dallas Cowboys lost the most Super Bowls in Florida with 3 defeats.
+
+```{r FAlose_table}
+Florida_lose <- Florida %>% 
+  group_by(Loser) %>% # Variable to be transformed
+  count() %>% 
+  ungroup() %>% 
+  mutate(perc = `n` / sum(`n`)) %>% 
+  arrange(perc) %>%
+  mutate(labels = scales::percent(perc))
+```
+
+## Florida Loser Table
+
+The code above creates a table of teams who lost the Super Bowl in Florida with percentages included.
+
+```{r Florida_loser chart}
+ggplot(Florida_lose, aes(x = "", y = perc, fill = Loser))+ggtitle("Percentage of Super Bowl Losers in Florida")+
+  geom_col() +
+  geom_text(aes(label = labels),
+            position = position_stack(vjust = 0.5)) +
+  coord_polar(theta = "y")
+```
+
+## Florida Losers Pie Chart
+
+In the code above, a pie chart of the Super Bowl losers in the state of Florida was created. The percentages were included in the pie chart. The Dallas Cowboys have lost 18% of Super Bowls in Florida.
+
+```{r texas_state}
+plot_usmap(include = c("TX"), labels = TRUE) + labs(title = "State of Texas")
+```
+# State of Texas
+
+The code above shows the state of Texas.
+
+```{r Texas_data}
+Texas <- subset(NFL_list, State == "Texas")
+summary(Texas)
+```
+
+# Texas Super Bowl Data
+
+There have been 4 Super Bowl games, where the Winning teams score an average of roughly 30 points and the Losing teams score an average of roughly 22 points.
+
+```{r Texas_Winners}
+Texas %>% count(Winner, sort = T)
+```
+
+## Texas Winning Super Bowl Teams
+
+The code above shows the number of times teams won the Super Bowl in Texas. The New England Patriots have won the most Super Bowls in Texas with 2 victories.
+
+
+```{r Texas_Losers}
+Texas %>% count(Loser, sort = T)
+```
+
+## Texas Losing Super Bowl Teams
+
+The code above shows the number of times teams lost the Super Bowl in Texas. The Atlanta Falcons, Carolina Panthers, Minnesota Vikings, and Pittsburgh Steelers each lost one Super Bowl in Texas.
+
+```{r california_state}
+plot_usmap(include = c("CA"), labels = TRUE) + labs(title = "State of California")
+```
+## California State
+
+The code above shows the state of California.
+
+
+```{r California_data}
+California <- subset(NFL_list, State == "California")
+summary(California)
+```
+
+# California Super Bowl Data
+There have been 13 Super Bowl games, where the Winning teams score an average of roughly 34 points and the Losing teams score an average of roughly 16 points.
+
+```{r California_Winner}
+California %>% count(Winner, sort = T)
+```
+## California Winning Teams
+
+The code above shows the number of times that teams won the Super Bowl in California. The Denver Broncos and Washington Redskins each earned 2 Super Bowl victories in California.
+
+```{r CA_win}
+CA_win <- data.frame(team =c("Denver Broncos", "Washington Redskins", "Dallas Cowboys", "Green Bay Packers", "Los Angeles Rams", "Miami Dolphins", "New York Giants", "Oakland Raiders", "Pittsburgh Steelers", "San Francisco 49ers", "Tampa Bay Buccaneers"), wins = c(2, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1))
+CA_win
+```
+
+```{r cw_plot}
+cw <- ggplot(data = CA_win, aes(x = team, y = wins, fill = team))+geom_bar(stat = "identity")+ labs(title = "Super Bowl Winning Teams in California", x = "Winning Teams", y = "Number of Super Bowl Wins")+ theme(axis.text.x = element_text(angle = 90))
+cw
+```
+## California Super Bowl Winning Teams Plot
+
+The code above created a barplot of the Super Bowl winning teams in California.
+
+```{r California_Loser}
+California %>% count(Loser, sort = T)
+```
+## California Losing Teams
+
+The code above shows the number of times teams lost the Super Bowls in California. The Denver Broncos and Miami Dolphins each lost 2 Super Bowls in California.
+
+```{r CA_lose}
+CA_lose <- data.frame(team =c("Denver Broncos", "Miami Dolphins", "Buffalo Bills", "Carolina Panthers", "Cincinnati Bengals", "Green Bay Packers", "Kansas City Chiefs", "Los Angeles Rams", "Minnesota Vikings", "Oakland Raiders", "Washington Redskins"), losses = c(2, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1))
+CA_lose
+```
+## California Losing Teams
+
+The code above created a data table documenting all the teams that lost a Super Bowl in California.
+
+```{r cl_plot}
+cl <- ggplot(data = CA_lose, aes(x = team, y = losses, fill = team))+geom_bar(stat = "identity")+ labs(title = "Super Bowl Losing Teams in California", x = "Losing Teams", y = "Number of Super Bowl Losses")+ theme(axis.text.x = element_text(angle = 90))
+cl
+```
+## California Losing Teams Plot
+
+The code above created a bar plot of the teams that lost the Super Bowl in California and their counts.
+
+```{r georgia_state}
+plot_usmap(include = c("GA"), labels = TRUE) + labs(title = "State of Georgia")
+```
+
+## Georgia State
+
+The code above shows the state of Georgia.
+
+
+```{r Georgia_data}
+Georgia <- subset(NFL_list, State == "Georgia")
+summary(Georgia)
+```
+
+# Georgia Super Bowl Data
+
+There have been 3 Super Bowl games, where the Winning teams score an average of roughly 22 points and the Losing teams score an average of roughly 11 points.
+
+```{r Georgia_Winner}
+Georgia %>% count(Winner, sort = T)
+```
+
+## Georgia Winning Teams
+
+The code above shows the times teams won the Super Bowl in Georgia. The Dallas Cowboys, New England Patriots, and St. Louis Rams each earned one Super Bowl victory in Georgia.
+
+```{r Georgia_loser}
+Georgia %>% count(Loser, sort = T)
+```
+
+## Georgia Losing Teams
+
+The code above shows the times teams lost the Super Bowl in Georgia. The Buffalo Bills, Los Angeles Rams, and Tennessee Titans each earned one Super Bowl loss in Georgia.
+
+```{r arizona_state}
+plot_usmap(include = c("AZ"), labels = TRUE) + labs(title = "State of Arizona")
+```
+## Arizona State
+
+The code above shows the state of Arizona.
+
+```{r Arizona_data}
+Arizona <- subset(NFL_list, State == "Arizona")
+summary(Arizona)
+```
+
+# Arizona Super Bowl Data
+There have been 3 Super Bowl games, where the Winning teams score an average of roughly 24 points and the Losing teams score an average of roughly 18 points.
+
+```{r Arizona_Winners}
+Arizona %>% count(Winner, sort = T)
+```
+
+## Arizona Winning Teams
+
+The code above shows the number of teams who won the Super Bowl in Arizona. The Dallas Cowboys, New England Patriots, and New York Giants each earned one Super Bowl Victory in Arizona.
+
+```{r Arizona_Losers}
+Arizona %>% count(Loser, sort = T)
+```
+
+## Arizona Losing Teams
+
+The code above shows the number of teams who lost the Super Bowl in Arizona. The New England Patriots, Pittsburgh Steelers, and Seattle Seahawks each earned one Super Bowl defeat in Arizona.
+
+```{r louisiana_state}
+plot_usmap(include = c("LA"), labels = TRUE) + labs(title = "State of Louisiana")
+```
+
+## State of Louisiana
+
+The code above shows the state of Louisiana.
+
+```{r Louisiana_data}
+Louisiana<- subset(NFL_list, State == "Louisiana")
+summary(Louisiana)
+```
+
+# Louisiana Super Bowl Data
+There have been 10 Super Bowl games, where the Winning teams score an average of roughly 31 points and the Losing teams score an average of roughly 13 points.
+
+```{r Louisiana_Winners}
+Louisiana %>% count(Winner, sort = T)
+```
+## Louisiana Winners
+
+The code above shows the number of times teams won the Super Bowl in Louisiana. The Dallas Cowboys earned two Super Bowl victories in Lousiana.
+
+```{r LA_win}
+LA_win <- data.frame(team =c("Dallas Cowboys", "Baltimore Ravens", "Chicago Bears", "Green Bay Packers", "Kansas City Chiefs", "New England Patriots", "Oakland Raiders", "Pittsburgh Steelers", "San Francisco 49ers"), wins = c(2, 2, 1, 1, 1, 1, 1, 1, 1))
+LA_win
+```
+## Louisiana Winning Teams
+
+The code above created a data table of the Super Bowl winning teams in Louisiana.
+
+```{r LA_dot}
+LA_dot <- ggplot(LA_win, aes(x = team, y = wins))+geom_point(aes(fill=wins))+labs(title = "Super Bowl Winning Teams in Louisiana", x = "Super Bowl Winning Teams", y = "Number of Super Bowl Wins")
+LA_dot
+```
+## Lousiana Winning Dot Plot
+
+The code above created a dot plot of the Super Bowl winning teams in Louisiana.
+
+```{r Louisiana_Loser}
+Louisiana %>% count(Loser, sort = T)
+```
+
+## Louisiana Losing Teams
+
+The code above shows the times teams lost the Super Bowl in Louisiana. The Denver Broncos, Minnesota Vikings, and New England Patriots each have two Super Bowl defeats in Louisiana.
+
+```{r LA_lose}
+LA_lose <- data.frame(team =c("Denver Broncos", "Minnesota Vikings", "New England Patriots", "Miami Dolphins", "Philadelphia Eagles", "San Francisco 49ers", "St. Louis Rams"), losses = c(2, 2, 2, 1, 1, 1, 1))
+LA_lose
+```
+
+## Louisiana Losers Data Table
+
+The code above created a data table of the Super Bowl losing teams in Louisiana.
+
+```{r LA_dot2}
+LA_dot2 <- ggplot(LA_lose, aes(x = team, y = losses))+geom_point(aes(fill=losses))+labs(title = "Super Bowl Losing Teams in Louisiana", x = "Super Bowl Losing Teams", y = "Number of Super Bowl Losses")
+LA_dot2
+```
+
+## Lousiana Losers Dot Plot
+
+The code above created a dot plot for the losing Super Bowl teams in Louisiana.
+
+```{r michigan_state}
+plot_usmap(include = c("MI"), labels = TRUE) + labs(title = "State of Michigan")
+```
+## State of Michigan
+
+The code above shows the state of Michigan.
+
+```{r Michigan_data}
+Michigan <- subset(NFL_list, State == "Michigan")
+summary(Michigan)
+```
+
+## Michigan Super Bowl Data
+
+There have been 2 Super Bowl games, where the Winning teams score an average of roughly 24 points and the Losing teams score an average of roughly 16 points.
+
+```{r Michigan_Winner}
+Michigan %>% count(Winner, sort = T)
+```
+
+## Michigan Winners
+
+The code above shows the teams that won Super Bowls in Michigan. The Pittsburgh Steelers and San Francisco 49ers each one a Super Bowl.
+
+```{r Michigan_Loser}
+Michigan %>% count(Loser, sort = T)
+```
+
+## Michigan Losers
+
+The code above shows the teams that lost Super Bowls in Michigan. The Cincinnati Bengals and Seattle Seahawks each lost a Super Bowl in Michigan.
+
+```{r minnesota_data}
+plot_usmap(include = c("MN"), labels = TRUE) + labs(title = "State of Minnesota")
+```
+
+## State of Minnesota
+
+The code above shows the state of Minnesota.
+
+
+```{r Minnesota_data}
+Minnesota <- subset(NFL_list, State == "Minnesota")
+summary(Minnesota)
+```
+
+## Minnesota Super Bowl Data
+
+There have been 2 Super Bowl games, where the Winning teams score an average of roughly 39 points and the Losing teams score an average of roughly 29 points.
+
+```{r Minnesota_Winner}
+Minnesota %>% count(Winner, sort = T)
+```
+
+## Minnesota Winners
+
+The code above shows the teams that won Super Bowls in Minnesota. The Philadelphia Eagles and Washington Redskins each won a Super Bowl in Minnesota.
+
+```{r Minnesota_Loser}
+Minnesota %>% count(Loser, sort = T)
+```
+
+## Minnesota Losers
+
+The code above shows the teams that lost Super Bowls in Minnesota. The Buffalo Bills and New England Patriots each lost a Super Bowl in Minnesota.
+
+```{r Indiana_state}
+plot_usmap(include = c("IN"), labels = TRUE) + labs(title = "State of Indiana")
+```
+
+## State of Indiana
+
+The code above shows the state of Indiana.
+
+```{r Indiana_data}
+Indiana <- subset(NFL_list, State == "Indiana")
+summary(Indiana)
+```
+
+## Indiana Super Bowl Data
+There have been 1 Super Bowl game, where the Winning teams score an average of roughly 21 points and the Losing teams score an average of roughly 17 points.
+
+```{r Indiana_Winner}
+Indiana %>% count(Winner, sort = T)
+```
+
+## Indiana Winner
+
+The New York Giants is the only team that has won a Super Bowl in Indiana.
+
+```{r Indiana_Loser}
+Indiana %>% count(Loser, sort = T)
+```
+## Indiana Loser
+
+The New England Patriots is the only team that has lost a Super Bowl in Indiana.
+
+```{r New Jersey_state}
+plot_usmap(include = c("NJ"), labels = TRUE) + labs(title = "State of New Jersey")
+```
+
+## New Jersey State
+
+The code above shows the state of New Jersey.
+
+```{r NJ_data}
+NewJersey <- subset(NFL_list, State == "New Jersey")
+summary(NewJersey)
+```
+
+# New Jersey Super Bowl Data
+
+There have been 1 Super Bowl game, where the Winning team scored 43 points and the Losing team scored 8 points.
+
+```{r NJ_Winner}
+NewJersey %>% count(Winner, sort = T)
+```
+## New Jersey Winner
+
+The Seatle Seahawks is the only team that has won a Super Bowl in New Jersey.
+
+```{r NJ_Loser}
+NewJersey %>% count(Loser, sort = T)
+```
+## New Jersey Loser
+
+The Denver Broncos is the only team that has lost a Super Bowl in New Jersey.
+
+```{r Winning_histogram}
+h <-hist(NFL_list$Winner.Pts, main = "Winning Points in NFL Super Bowl Games", xlab = "NFL Winning Point Scores", ylab = "Frequency of NFL Winning Point Scores", col = "blue" )
+text(h$mids,h$counts,labels=h$counts, adj=c(0.5, -0.5))
+```
+# Winning Point Scores
+
+The NFL point scores break in 5 point increments. 16 of the winning Super Bowl teams scores fell between the 30-35 point category. 2 of the winning teams scored between 10-15 points and 2 teams scored between 50-55 points.
+
+```{r Loser_histogram}
+h2 <-hist(NFL_list$Loser.Pts, main = "Loser Points in NFL Super Bowl Games", xlab = "NFL Loser Point Scores", ylab = "Frequency of NFL Loser Point Scores", col = "magenta" )
+text(h2$mids,h2$counts,labels=h2$counts, adj=c(0.5, -0.5))
+```
+
+# Losing Point Scores
+The NFL point scores break in 5 point increments. 17 of the losing Super Bowl teams scores fell between the 5-10 point category and 17 of the winning teams scored between 15-20 points. 2 teams scored between 0-5 points.
+
+```{r Winning_Time}
+Winning_time <-ts(NFL_list$Winner.Pts, start = c(2024),end = c(2038),frequency = 1 )
+Winning_time
+summary(Winning_time)
+```
+
+# Winning Score Projections over 15 years
+
+A time series was created to project the scores of NFL Winning teams over the next 15 years. The average score of winning teams is 30 points where the maximum score is 43 points and the minimum score is 13.
+
+```{r forecast1_graph}
+autoArimaFit <- auto.arima(Winning_time)
+plot(forecast(autoArimaFit, h=15))
+```
+## Forecasting Winning Graph
+
+The code above created a graph of the forecasted Super Bowl winning team points over the next 15 years.
+
+```{r Losing_Time}
+Losing_time <-ts(NFL_list$Loser.Pts, start = c(2024),end = c(2038),frequency = 1 )
+Losing_time
+summary(Losing_time)
+```
+
+# Losing Score Projections over 15 years
+
+A time series was created to project the scores of NFL Losing teams over the next 15 years. The average score of losing teams is roughly 20 points (20.2 points to be exactly) where the maximum score is 35 points and the minimum score is 3.
+
+```{r forecast2_graph}
+autoArimaFit2 <- auto.arima(Losing_time)
+plot(forecast(autoArimaFit2, h=15))
+```
+
+## Forecasting Losing Graph
+
+The code above created a graph of the forecasted Super Bowl losing team points over the next 15 years.
+
+```{r Host_place}
+Host_place <-ts(NFL_list$State, start = c(2024),end = c(2038),frequency = 1 )
+Host_place
+```
+## Super Bowl Host States
+
+In the code above, the next 15 Super Bowl states were projected. Arizona should host two Super Bowls, California should host two Super Bowls, Florida should host four Super Bowls, Georgia should host one Super Bowl, Indiana should host one Super Bowl, Louisiana should host one Super Bowl, Minnesota should host one Super Bowl, New Jersey should host one Super Bowl, and Texas should host two Super Bowls.
