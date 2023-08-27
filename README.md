@@ -233,13 +233,13 @@ Geographic location does play a role in where Super Bowls are held. 10 different
 
 Based on the location of the Super Bowl, the amount of points teams need to score to win or lose the Super Bowl changes significantly. 
 
-|Super Bowl Host States|Average Winning Team Points|Average Losing Team Points|
-| ------------- | ------------- |-------------|
-| Florida  | 29 points (28.76 exactly)  | 17 points (16.76 exactly) |
-| California  | 34 points (33.54 exactly)  | 16 points (15.77 exactly) |
-| Louisiana | 31 points (30.7 exactly) | 13 points (12.5 exactly) |
-| Arizona | 28 points (27.5 exactly) | 23 points (22.5 exactly) |
-| Texas | 30 points (30.25 exactly) | 22 points (22.25 exactly) |
+| Super Bowl Host States | Average Winning Team Points | Average Losing Team Points | Score Range |
+| ------------- | ------------- |-------------|-------------|
+| Florida  | 29 points (28.76 exactly)  | 17 points (16.76 exactly) | 12 points |
+| California  | 34 points (33.54 exactly)  | 16 points (15.77 exactly) | 18 points (17.77 exactly)|
+| Louisiana | 31 points (30.7 exactly) | 13 points (12.5 exactly) | 18 points (18.2 exactly) |
+| Arizona | 28 points (27.5 exactly) | 23 points (22.5 exactly) | 5 points |
+| Texas | 30 points (30.25 exactly) | 22 points (22.25 exactly) | 8 points |
 
 Florida winners: score an average of under 29 points (28.76 points exactly)
 Florida losers: score an average of 17 points (16.76 points) 
