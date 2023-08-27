@@ -3,7 +3,7 @@
 # Project Summary
 
 The purpose of the project was to analyze data from all 57 Super Bowls that have been held by the NFL and projecting
-point totals that Super Bowl winners and losers will score in the upcoming 15 Super Bowls. A secondary purpose was to determine whether or not geographic location plays a role in Super Bowl scores. This project does not account for plays run by Super Bowl teams, as well as any penalities that occurred.
+point totals that Super Bowl winners and losers will score in the upcoming 15 Super Bowls. A secondary purpose was to determine whether or not geographic location plays a role in Super Bowl scores. This project does not account for plays run by Super Bowl teams, penalities, and weather forecast.
 
 # Data Collection
 
@@ -229,7 +229,34 @@ The next 15 Super Bowl states were projected. Arizona should host two Super Bowl
 
 # Conclusions
 
-Geographic location does play a role in Super Bowl scores. 
+Geographic location does play a role in where Super Bowls are held. 10 different states have hosted the Super Bowl. There have been five states that have hosted four or more Super Bowls: Florida (17 Super Bowls), California (13 Super Bowls), Louisiana (10 Super Bowls), Arizona (4 Super Bowls), and Texas (4 Super Bowls). The remaining five states have host less than four Super Bowls: Georgia (3 Super Bowls), Michigan (2 Super Bowls), Minnesota (2 Super Bowls), Indiana (1 Super Bowl) and New Jersey (1 Super Bowl).
+
+Based on the location of the Super Bowl, the amount of points teams need to score to win or lose the Super Bowl changes significantly. 
+
+| Super Bowl Host States  | Average Winning Team Points | Average Losing Team Points |
+| ------------- | ------------- |
+| Florida  | 29 points (28.76 exactly)  | 17 points (16.76 exactly) |
+| California  | 34 points (33.54 exactly)  | 16 points (15.77 exactly) |
+| Louisiana | 31 points (30.7 exactly) | 13 points (12.5 exactly) |
+| Arizona | | 28 points (27.5 exactly) | 23 points (22.5 exactly) |
+| Texas | 30 points (30.25 exactly) | 22 points (22.25 exactly) |
+
+Florida winners: score an average of under 29 points (28.76 points exactly)
+Florida losers: score an average of 17 points (16.76 points) 
+Texas winners score an average of over 30 points (30.25 exactly)
+Texas losers score an average of over 22 points (22.25 exactly)
+California winners score an average of under 34 points (33.54 exactly) 
+California losers score an average of under 16 points (15.77 exactly)
+Georgia winners score an average of 22 points 
+Georgia losers score an average of under 11 points (10.67 exactly)
+Arizona winners score an average of under 28 points (27.5 exactly) 
+Arizona losers score an average of under 23 points (22.5 exactly)
+Louisiana winners score an aveage of under 31 points (30.7 exactly)
+Louisiana losers score an average of under 13 points (12.5 exactly)
+Michigan winners score an average of under 24 points (23.5 exactly)
+Michigan losers score an average of under 16 points (15.5 exactly)
+Minnesota winners have scored an average of 39 points 
+Minnesota losers have scored an average of under 29 points (28.5 exactly)
 
 
 
