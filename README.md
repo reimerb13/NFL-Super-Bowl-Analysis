@@ -241,22 +241,20 @@ Based on the location of the Super Bowl, the amount of points teams need to scor
 | Arizona | 28 points (27.5 exactly) | 23 points (22.5 exactly) | 5 points |
 | Texas | 30 points (30.25 exactly) | 22 points (22.25 exactly) | 8 points |
 
-Florida winners: score an average of under 29 points (28.76 points exactly)
-Florida losers: score an average of 17 points (16.76 points) 
-Texas winners score an average of over 30 points (30.25 exactly)
-Texas losers score an average of over 22 points (22.25 exactly)
-California winners score an average of under 34 points (33.54 exactly) 
-California losers score an average of under 16 points (15.77 exactly)
-Georgia winners score an average of 22 points 
-Georgia losers score an average of under 11 points (10.67 exactly)
-Arizona winners score an average of under 28 points (27.5 exactly) 
-Arizona losers score an average of under 23 points (22.5 exactly)
-Louisiana winners score an aveage of under 31 points (30.7 exactly)
-Louisiana losers score an average of under 13 points (12.5 exactly)
-Michigan winners score an average of under 24 points (23.5 exactly)
-Michigan losers score an average of under 16 points (15.5 exactly)
-Minnesota winners have scored an average of 39 points 
-Minnesota losers have scored an average of under 29 points (28.5 exactly)
+Of the teams that have hosted more than four Super Bowl games, games held in California and Louisiana have a range of roughly 18 points between winners and losers, while Super Bowl games held in Arizona are very close with only a 5 points range.
+
+
+| Super Bowl Host States | Average Winning Team Points | Average Losing Team Points | Score Range |
+| ------------- | ------------- |-------------|-------------|
+| Georgia  | 22 points  | 11 points (10.67 exactly) | 11 points (11.33 exactly) |
+| Michigan  | 24 points (23.5 exactly)  | 16 points (15.5 exactly) | 8 points |
+| Minnesota | 39 points | 29 points (28.5 exactly) | 10 points (10.5 exactly) |
+| Indiana | 21 points | 17 points | 4 points |
+| New Jersey | 43 points | 8 points  | 35 points |
+
+Of the teams that have hosted fewer than four Super Bowl games, games in Michigan have a range of roughly 16 points between winners and losers, while Super Bowl games in Georgia had a range of 11 points and games in Minnesota had a range of 10 points.
+
+
 
 
 
