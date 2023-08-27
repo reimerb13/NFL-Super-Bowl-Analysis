@@ -199,7 +199,7 @@ A time series analysis was conducted to project the next 15 Super Bowl winning s
 <img width="410" alt="image" src="https://github.com/reimerb13/NFL-Super-Bowl-Analysis/assets/79723505/95a170a1-32e7-494d-9042-f918683c7cb2">
 
 
-The picture above shows the next 15 Super Bowl victory points scored by teams in Super Bowls from 2024-2039. On average, winning teams will need to score under 30 points (29.19 exactly) to secure a Super Bowl victory. One team will score a maximum of 43 points during their Super Bowl victory and one team will only need to score 13 points to secure their Super Bowl victory.
+The picture above shows the next 15 Super Bowl victory points scored by teams in Super Bowls from 2024-2038. On average, winning teams will need to score 30 points to secure a Super Bowl victory. One team will score a maximum of 43 points during their Super Bowl victory and one team will only need to score 13 points to secure their Super Bowl victory.
 
 <img width="1066" alt="image" src="https://github.com/reimerb13/NFL-Super-Bowl-Analysis/assets/79723505/616b28a5-0429-4b7d-822a-6437b0de9f52">
 
@@ -212,7 +212,7 @@ A time series analysis was conducted to project the next 15 Super Bowl losing sc
 <img width="376" alt="image" src="https://github.com/reimerb13/NFL-Super-Bowl-Analysis/assets/79723505/3e1f1b80-3b9d-48ad-a590-d58088337b76">
 
 
-The picture above shows the projected 15 Super Bowl points scored by losing teams in Super Bowls from 2024-2039. On average, losing teams will score under 20 points (19.81 exactly) to have a Super Bowl defeat. One team will score a maximum of 35 points during their Super Bowl loss and one team will score 3 points to secure their Super Bowl defeat.
+The picture above shows the projected 15 Super Bowl points scored by losing teams in Super Bowls from 2024-2039. On average, losing teams will score over 20 points (20.2 exactly) to have a Super Bowl defeat. One team will score a maximum of 35 points during their Super Bowl loss and one team will score 3 points to secure their Super Bowl defeat.
 
 <img width="1071" alt="image" src="https://github.com/reimerb13/NFL-Super-Bowl-Analysis/assets/79723505/0bde881b-b04b-41a5-a7e3-89cc3dbc206e">
 
