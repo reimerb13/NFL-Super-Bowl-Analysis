@@ -262,6 +262,13 @@ There could be several future project ideas that build off the initial findings.
 
 # References
 
+Bozsolik, T. (2020). Superbowl History 1967-2020. Retrieved August 27, 2022 from https://www.kaggle.com/datasets/timoboz/superbowl-history-1967-2020.
+
+Di Lorenzo, P. (2023). Mapping the US. Retrieved August 25, 2023 from https://cran.r-project.org/web/packages/usmap/vignettes/mapping.html.
+
+Github, Inc. (2023). Organizing information with tables. Retrieved August 27, 2023 from https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/organizing-information-with-tables.
+
+
 
 
 
