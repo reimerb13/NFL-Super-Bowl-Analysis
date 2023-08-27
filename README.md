@@ -258,7 +258,9 @@ In the next 15 years, Super Bowl winning teams should be projected to score an a
 
 # Future Project Ideas
 
+There could be several future project ideas that build off the initial findings. One idea could be to determine if specific plays are commonly run by winning and losing Super Bowl teams. Another idea could to be to see how weather conditions affect the outcome of the game and if the conditions favor one team over the other. A final idea could be to project the weather conditions for the next 15 Super Bowls and how teams could prepare accordingly.
 
+# References
 
 
 
